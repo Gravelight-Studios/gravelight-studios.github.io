@@ -1,6 +1,0 @@
-{
-  "layout": "writeup",
-  "permalink": "/{{ title | slugify }}/",
-  "templateEngineOverride": "njk, md"
-}
-    

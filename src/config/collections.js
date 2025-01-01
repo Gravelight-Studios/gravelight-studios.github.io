@@ -6,15 +6,6 @@
 export default {
 
   /**
-   * Articles
-   */
-  articles: async function (eleventyConfig) {
-    eleventyConfig.addCollection("articles", function(collectionApi) {
-      return collectionApi.getFilteredByGlob("src/content/articles/**/*.md");
-    });
-  },
-
-  /**
    * Pages
    */
   pages: async function (eleventyConfig) {
@@ -24,11 +15,11 @@ export default {
   },
 
   /**
-   * Writeups
+   * Projects
    */
-  writeups: async function (eleventyConfig) {
-    eleventyConfig.addCollection("writeups", function(collectionApi) {
-      return collectionApi.getFilteredByGlob("src/content/writeups/**/*.md");
+  projects: async function (eleventyConfig) {
+    eleventyConfig.addCollection("projects", function(collectionApi) {
+      return collectionApi.getFilteredByGlob("src/content/projects/**/*.md");
     });
   }
 }

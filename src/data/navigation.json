@@ -6,13 +6,8 @@
       "external": false
     },
     {
-      "text": "Report Spotlight",
-      "url": "/blog/",
-      "external": false
-    },
-    {
-      "text": "Writeups",
-      "url": "/writeups/",
+      "text": "Projects",
+      "url": "/projects/",
       "external": false
     },
     {

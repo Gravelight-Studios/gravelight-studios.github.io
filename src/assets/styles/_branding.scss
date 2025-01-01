@@ -2,8 +2,9 @@
   /**
     Colors
   */
-  --color-text: #222;
-  --color-background: white;
+  --color-text: rgba(20, 20, 20, 1);
+  --color-text-dark: rgba(100, 100, 100, 1);
+  --color-background: rgba(150, 150, 150, 1);
   --color-light: silver;
   --color-primary: #00aa00;
   --color-primary-dark: #007700;
@@ -26,8 +27,8 @@
     -apple-system;
 
   @media (prefers-color-scheme: dark) {
-    --color-text: #DDDDDD;
-    --color-text-dark: #999999;
-    --color-background: #222;
+    --color-text: rgba(150, 150, 150, 1);
+    --color-text-dark: rgba(100, 100, 100, 1);
+    --color-background: rgba(20, 20, 20, 1);
   }
 }
